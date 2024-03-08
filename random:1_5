@@ -1,0 +1,11 @@
+import random
+
+a = str(random.randint(1, 5))
+b = input('Guess the number from "1", before "5": ')
+
+if b == a:
+    print("Congratulations!")
+
+else:
+    print("Failure!")
+    print("A number was made up:", a)
